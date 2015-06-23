@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/entipic/entipic.uniquename",
   "dependencies": {
-    "slug": "^0.9.1"
+    "slug": "^0.9.1",
+    "diacritics": "^1.2.1"
   },
   "devDependencies": {
     "mocha": "^2.2.5",
