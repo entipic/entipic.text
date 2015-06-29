@@ -1,26 +1,26 @@
 {
-  "name": "entipic.uniquename",
+  "name": "entipic.text",
   "version": "0.0.1",
-  "description": "Entipic uniquename module",
+  "description": "Entipic text module",
   "main": "./lib/index.js",
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/entipic/entipic.uniquename.git"
+    "url": "https://github.com/entipic/entipic.text.git"
   },
   "keywords": [
     "entipic",
-    "uniquename",
+    "text",
     "slug"
   ],
   "author": "Dumitru Cantea",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/entipic/entipic.uniquename/issues"
+    "url": "https://github.com/entipic/entipic.text/issues"
   },
-  "homepage": "https://github.com/entipic/entipic.uniquename",
+  "homepage": "https://github.com/entipic/entipic.text",
   "dependencies": {
     "slug": "^0.9.1",
     "diacritics": "^1.2.1"

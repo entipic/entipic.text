@@ -1,3 +1,3 @@
-# entipic uniquename
+# entipic text
 
 Entipic slug & uniquename module
