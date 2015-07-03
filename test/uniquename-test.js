@@ -13,8 +13,12 @@ describe('uniquename', function() {
     assert.equal(instance.uniquename('    '), undefined);
   });
   it('too small text', function() {
-    assert.equal(instance.uniquename('1  '), '1');
-    assert.equal(instance.uniquename('  a  '), 'a');
+    assert.throws(function() {
+      assert.equal(instance.uniquename('1  '), '1');
+    });
+    assert.throws(function() {
+      assert.equal(instance.uniquename('  a  '), 'a');
+    });
   });
 
   it('`C++` = `c-plus-plus`', function() {
@@ -29,12 +33,18 @@ describe('uniquename', function() {
     assert.equal('nodejs', instance.uniquename('Node.js'));
   });
 
-  it('`A++`=`a`', function() {
-    assert.equal(instance.uniquename('A++    '), 'a');
+  it('`A++`=`a` throw error', function() {
+    assert.throws(function() {
+      instance.uniquename('A++    ');
+    });
   });
 
   it('`@A[/o~±ÆЙЖ_=?><`=`a-o-aeиж`', function() {
     assert.equal(instance.uniquename('@A[/o~±ÆЙЖ_=?><'), 'a-o-aeиж');
+  });
+
+  it('`Начиная с версии Юникода`=`начиная-с-версии-юникода`', function() {
+    assert.equal(instance.uniquename('Начиная с версии Юникода'), 'начиная-с-версии-юникода');
   });
 
 });

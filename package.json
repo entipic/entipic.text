@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/entipic/entipic.text",
   "dependencies": {
-    "slug": "^0.9.1",
-    "diacritics": "^1.2.1"
+    "atonic": "^1.0.1",
+    "xregexp": "^2.0.0"
   },
   "devDependencies": {
     "mocha": "^2.2.5",
