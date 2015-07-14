@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/entipic/entipic.text",
   "dependencies": {
-    "atonic": "^1.0.1",
+    "atonic": "^1.0.2",
     "xregexp": "^2.0.0"
   },
   "devDependencies": {
