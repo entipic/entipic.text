@@ -1,6 +1,6 @@
 {
   "name": "entipic.text",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Entipic text module",
   "main": "./lib/index.js",
   "scripts": {
