@@ -4,7 +4,11 @@
   "description": "Entipic text module",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/mocha/bin/mocha",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=0.10.0"
   },
   "repository": {
     "type": "git",
@@ -22,7 +26,7 @@
   },
   "homepage": "https://github.com/entipic/entipic.text",
   "dependencies": {
-    "atonic": "^1.0.2",
+    "atonic": "^1.0.3",
     "xregexp": "^2.0.0"
   },
   "devDependencies": {
